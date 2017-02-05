@@ -1,0 +1,6 @@
+[submodule "oneinstack"]
+	path = oneinstack
+	url = https://github.com/lj2007331/oneinstack
+[submodule "ext-src/ngx_brotli"]
+	path = ext-src/ngx_brotli
+	url = https://github.com/google/ngx_brotli
