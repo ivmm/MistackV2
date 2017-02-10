@@ -3,7 +3,7 @@
 nginx_version=1.10.3
 tengine_version=2.1.2
 openresty_version=1.11.2.2
-openssl_version=1.1.0d
+openssl_version=1.0.2k
 
 tomcat8_version=8.0.41
 tomcat7_version=7.0.75
