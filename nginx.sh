@@ -17,10 +17,6 @@ Install_Nginx() {
   tar xzf pcre-$pcre_version.tar.gz
   tar xzf nginx-$nginx_version.tar.gz
   tar xzf openssl-$openssl_version.tar.gz
-
-  pushd openssl-$openssl_version
-  patch -p1 < ../../../openssl__chacha20_poly1305_draft_and_rfc_ossl102j.patch
-
   pushd nginx-$nginx_version
   # Modify Nginx version
   #sed -i 's@#define NGINX_VERSION.*$@#define NGINX_VERSION      "1.2"@' src/core/nginx.h
